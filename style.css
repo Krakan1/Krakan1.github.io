@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+}
+
+nav {
+    margin-right: 0;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+
+nav .right {
+    float: right;
+}
+
+
+nav .left {
+    float: left;
+
+}
+
+nav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+nav .right a:hover {
+    background-color: lightgreen;
+    color: black;
+}
+
+footer {
+    padding: 150px;
+    overflow: hidden;
+    background: blue;
+}
+
+
+.gallery{
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    overflow-x: scroll;
+}
+
+.gallery div{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1000, auto);
+    grid-gap: 20px;
+    padding: 10px;
+    flex: none
+}
+
+.gallery div img{
+    height: 30vh;
+    border: 1px solid black;
+}
